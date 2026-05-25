@@ -1,0 +1,123 @@
+body {
+    font-family: 'Cairo', sans-serif; 
+
+    background-image: url('https://incredible-capybara-5c3482.netlify.app/168.jpeg'); 
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card-container {
+    
+    background-color: rgba(244, 198, 160, 0.9); 
+    padding: 40px 20px;
+    border-radius: 20px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 450px;
+}
+
+
+.input-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+input {
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 18px;
+    outline: none;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+
+#submitBtn {
+    
+    background-color: #dbe4e7; 
+    color: #333;
+    border: 1px solid #bccad0;
+    padding: 8px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Cairo', sans-serif;
+}
+
+#submitBtn:hover {
+    background-color: #c4d4d9;
+}
+
+.top-greeting {
+    color: #222;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.highlight {
+    color: #000;
+    font-size: 32px;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.message {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.hearts {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#resetBtn {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+.developer-info {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #444;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.contact-btn {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #2c3e50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    direction: ltr;
+}
